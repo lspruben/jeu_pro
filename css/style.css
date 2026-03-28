@@ -1,0 +1,261 @@
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+
+}
+#home {
+	background-image: url(../medias/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#menu img{
+width: 60%;
+	vertical-align: middle;
+
+
+}
+
+#menu {
+	position: absolute;
+	text-align: center;
+			top: 25%;
+
+}
+
+#menu .dys {
+	position: absolute;
+	width: 15%;
+}
+
+#dyslexie {
+	top: -100px;
+	left: 50%;
+}
+#dysphasie {
+	top: 83%;
+	left: 46%;
+}
+
+#dyspraxie {
+		top: 35%;
+	left: 72%;
+}
+
+
+
+/*situation 1 */ 
+
+ul {
+	display: block;
+}
+
+#reponses {
+	list-style-type: none;
+}
+
+
+.flex-container {
+	position: absolute;
+	top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+  width: 213px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.flex-container img {
+	width: 165px;
+}
+
+.numero_situation {
+	text-align: center;
+	font-size: 56px;
+	padding-top: 100px;
+	margin-top: 0;
+}
+h4 {
+		text-align: center;
+
+}
+.reponses {
+	display: flex;
+	    justify-content: center;
+
+}
+.reponses > li {
+	display: block;
+	border: solid purple;
+	width: 200px;
+	height: 200px;
+	list-style-type: none;
+	margin: 10px;
+	text-align: center;
+line-height: 200px;}
+
+
+#answer {
+	position: absolute;
+	background-color: green;
+	line-height: 30px;
+text-align: center;
+    top: 70%;
+    width: 57%;
+}
+
+
+
+		/*MENU */
+
+nav ul{
+	list-style-type: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+	background-color: grey;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+a {
+	text-decoration: none;
+color: #fff}
+
+i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+.icon{
+  margin-right: 8px;
+}
+
+/* Situation 2*/
+
+.box_reponse_dyslexie, .box_reponse_dysphasie, .box_reponse_dyspraxie
+{
+	  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    padding:100px;
+}
+.box {
+  width: 20%;
+  margin: 0 15px;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.box_reponse_dyslexie .button,.box_reponse_dysphasie .button,
+.box_reponse_dyspraxie .button   {
+  font-size: 1em;
+  padding: 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 120px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  width: 67%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: center;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.fa-circle-check, .fa-circle-xmark {
+	position: relative;
+left: 40%;
+margin-bottom:20px;
+	font-size: 150px;
+text-align: center;
+}
+
+
+	.teteruben{
+		position: relative;
+		width: 150px;
+			margin-bottom:20px;
+left: 40%}
+
+.rep1 {
+  background: #FF7300;
+    color: #fff;
+  border: 2px solid #FF7300;
+}
+.rep2 {
+  color: #fff;
+  background: #00BF63;
+  border: 2px solid #00BF63;
+}
+
+.rep3 {
+  background: #FF3131;
+  color: #FFF;
+  border: 2px solid #FF3131;
+}
