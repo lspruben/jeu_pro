@@ -10,7 +10,7 @@ body {
 }
 
 #menu img{
-width: 60%;
+width: 25%;
 	vertical-align: middle;
 
 
@@ -19,13 +19,14 @@ width: 60%;
 #menu {
 	position: absolute;
 	text-align: center;
-			top: 25%;
+			top: 15%;
 
 }
 
 #menu .dys {
-	position: absolute;
 	width: 15%;
+  margin-left: 20px ;
+
 }
 
 #dyslexie {
@@ -146,11 +147,10 @@ i {
 	  display: flex;
   flex-wrap: wrap;
     justify-content: center;
-    padding:100px;
 }
 .box {
-  width: 20%;
-  margin: 0 15px;
+  width: 100%;
+  margin: 15px 15px;
   background: rgba(255,255,255,0.2);
   border: 2px solid #fff;
   border-radius: 20px/50px;
@@ -161,7 +161,7 @@ i {
 .box_reponse_dyslexie .button,.box_reponse_dysphasie .button,
 .box_reponse_dyspraxie .button   {
   font-size: 1em;
-  padding: 25px;
+  padding: 10px;
   border-radius: 50px;
   text-decoration: none;
   cursor: pointer;
@@ -244,18 +244,19 @@ text-align: center;
 left: 40%}
 
 .rep1 {
-  background: #FF7300;
-    color: #fff;
-  border: 2px solid #FF7300;
-}
+    color: #27187E;
+/*  border: 2px solid #FF7300;
+*/}
 .rep2 {
-  color: #fff;
-  background: #00BF63;
-  border: 2px solid #00BF63;
-}
+  color: #2c6e49;
+/*  border: 2px solid #00BF63;
+*/}
 
 .rep3 {
-  background: #FF3131;
-  color: #FFF;
-  border: 2px solid #FF3131;
-}
+  color: #FF3131;
+/*  border: 2px solid #FF3131;
+*/}
+  #titre {
+    font-size: 2.5em;
+    color: #1576FE;
+  }
